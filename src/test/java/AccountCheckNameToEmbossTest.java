@@ -32,6 +32,7 @@ public class AccountCheckNameToEmbossTest {
                 {"Тимоти Хэл Шаламе", false},
                 {"Тимоти Шаламе ", false},
                 {" ", false},
+                {"", false},
                 {null, false}
         });
     }
